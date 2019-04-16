@@ -1,0 +1,332 @@
+Script started on 2019-04-16 03:13:49-04:00
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ vi input.y[Ktxt
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".input.txt.swp"
+[10Cowned by: hacker1   dated: Tue Apr 16 03:00:03 2019
+[9Cfile name: ~hacker1/input.txt
+[10Cmodified: no
+[9Cuser name: hacker1   host name: kali
+[8Cprocess ID: 2403 (still running)
+While opening file "input.txt"
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r input.txt"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".input.txt.swp"
+    to avoid this message.
+[?1000l
+[32mSwap file ".input.txt.swp" already exists![m
+[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort: [?25h[?1000h[m[24;1H[K[?25l[24;1H"input.txt" [New File][?1000l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ d[Kd[Kls -al
+total 156
+drwxr-xr-x 2 hacker1 hacker1  4096 Apr 16 03:14 [0m[01;34m.[0m
+drwxr-xr-x 6 root    root     4096 Apr  3 21:38 [01;34m..[0m
+-rw-r--r-- 1 hacker1 hacker1  1161 Apr  8 22:23 A1
+-rw-r--r-- 1 hacker1 hacker1  1161 Apr  8 22:15 A2
+-rw-r--r-- 1 hacker1 hacker1   117 Apr 10 21:33 A3
+-rw-r--r-- 1 hacker1 hacker1   117 Apr 10 21:38 A4
+-rw-r--r-- 1 hacker1 hacker1   117 Apr 10 21:44 A5
+-rw-r--r-- 1 hacker1 hacker1   117 Apr 11 05:36 B1
+-rw-r--r-- 1 hacker1 hacker1   117 Apr 11 05:40 B2
+-rw-r--r-- 1 hacker1 hacker1   117 Apr 11 05:43 B3
+-rw-r--r-- 1 hacker1 hacker1   117 Apr 11 05:54 B4
+-rw-r--r-- 1 hacker1 hacker1   117 Apr 16 02:41 B5
+-rw------- 1 hacker1 hacker1  4092 Apr 16 03:12 .bash_history
+-rw-r--r-- 1 hacker1 hacker1   220 Apr  3 21:38 .bash_logout
+-rw-r--r-- 1 hacker1 hacker1  3391 Apr  3 21:38 .bashrc
+-rw-r--r-- 1 hacker1 hacker1  3526 Apr  3 21:38 .bashrc.original
+-rwsr-xr-x 1 root    hacker1 17988 Apr 11 05:35 [37;41mbo[0m
+-rw-r--r-- 1 hacker1 hacker1   299 Apr 11 04:21 bo.c
+-rw-r--r-- 1 hacker1 hacker1    17 Apr  8 21:38 genA1.py
+-rw-r--r-- 1 hacker1 hacker1   328 Apr 10 21:29 genA3.py
+-rw-r--r-- 1 hacker1 hacker1   328 Apr 10 21:37 genA4.py
+-rw-r--r-- 1 hacker1 hacker1   328 Apr 10 21:44 genA5.py
+-rw-r--r-- 1 hacker1 hacker1    14 Apr 11 05:36 genB1.py
+-rw-r--r-- 1 hacker1 hacker1   328 Apr 16 02:40 genB3.py
+-rw-r--r-- 1 hacker1 hacker1   299 Apr 11 04:20 hw.c
+-rw-r--r-- 1 hacker1 hacker1  4096 Apr 16 03:00 .input.txt.swp
+-rwsr-xr-x 1 root    hacker1 17996 Apr  3 21:40 [37;41mmycopy[0m
+-rw-r--r-- 1 hacker1 hacker1   180 Apr  3 21:40 mycopy.c
+-rw-r--r-- 1 hacker1 hacker1   807 Apr  3 21:38 .profile
+-rw-r--r-- 1 hacker1 hacker1     0 Apr 16 03:13 typescript
+-rw------- 1 hacker1 hacker1  7630 Apr 16 03:14 .viminfo
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ rm .input.txt.swp 
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ ls
+A1  A3  A5  B2  B4  [0m[37;41mbo[0m    genA1.py  genA4.py  genB1.py  hw.c    mycopy.c
+A2  A4  B1  B3  B5  bo.c  genA3.py  genA5.py  genB3.py  [37;41mmycopy[0m  typescript
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ vi input.txt
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"input.txt" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll"input.txt" [New File][1;1H[?25h[?25l[24;53HA[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25lA[24;63H1,2[1;2H[?25h[?25lA[24;65H3[1;3H[?25h[?25lA[24;65H4[1;4H[?25h[?25lA[24;65H5[1;5H[?25h[?25lA[24;65H6[1;6H[?25h[?25lA[24;65H7[1;7H[?25h[?25lA[24;65H8[1;8H[?25h[?25lA[24;65H9[1;9H[?25h[?25lA[24;65H10[1;10H[?25h[?25lA[24;66H1[1;11H[?25h[?25lA[24;66H2[1;12H[?25h[?25lA[24;66H3[1;13H[?25h[?25lA[24;66H4[1;14H[?25h[?25lA[24;66H5[1;15H[?25h[?25lA[24;66H6[1;16H[?25h[24;1H[K[1;15H[?25l[24;53H^[[1;15H[24;53H  [1;16H[24;63H1,15[10CAll[1;15H[?25h[?25l[24;53H:[1;15H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"input.txt" [New] 1L, 16C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ gdb bo
+GNU gdb (Debian 8.1-4+b1) 8.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bo...done.
+(gdb) l
+3	int func1(){
+4		printf("Fail..\n");
+5		return -1;
+6	}
+7	int func2(){
+8		printf("My Password is Success!!\n");
+9		return 1;
+10	}
+11	void main1(){
+12		char buffer[MY_SHA3_HASH_LAST_TWO_DIGIT_NUMBER];
+(gdb) l
+13		scanf("%s",buffer);
+14		func1();
+15	}
+16	void main(){
+17		main1();
+18	}
+(gdb) break 14
+Breakpoint 1 at 0x8049219: file bo.c, line 14.
+(gdb) run < input.txt 
+Starting program: /home/hacker1/bo < input.txt
+
+Breakpoint 1, main1 () at bo.c:14
+14		func1();
+(gdb) info registers 
+eax            0x1	1
+ecx            0x1	1
+edx            0xb7fae89c	-1208293220
+ebx            0x804c000	134529024
+esp            0xbffff710	0xbffff710
+ebp            0xbffff728	0xbffff728
+esi            0xb7fad000	-1208299520
+edi            0x0	0
+eip            0x8049219	0x8049219 <main1+41>
+eflags         0x282	[ SF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) x/40x $esp
+0xbffff710:	0x00000001	0xbffff7d4	0x4141f7dc	0x41414141
+0xbffff720:	0x41414141	0x41414141	0xbfff0041	0x08049239
+0xbffff730:	0xb7fad000	0xb7fad000	0x00000000	0xb7df09a1
+0xbffff740:	0x00000001	0xbffff7d4	0xbffff7dc	0xbffff764
+0xbffff750:	0x00000001	0x00000000	0xb7fad000	0xb7fe6d0a
+0xbffff760:	0xb7fff000	0x00000000	0xb7fad000	0x00000000
+0xbffff770:	0x00000000	0x3ba3a02e	0x7a5fe63e	0x00000000
+0xbffff780:	0x00000000	0x00000000	0x00000001	0x08049080
+0xbffff790:	0x00000000	0xb7fec350	0xb7fe6f60	0x0804c000
+0xbffff7a0:	0x00000001	0x08049080	0x00000000	0x080490b2
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 2547] will be killed.
+
+Quit anyway? (y or n) y
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ vi input.txt 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"input.txt" 1L, 16C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HAAAAAAAAAAAAAAA
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,15[10CAll[1;15H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1HAAAAAAAAAAAAAAA
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,15[10CAll"input.txt" 1L, 16C[1;15H[?25h[?25l[24;53H~@k[1;15H[24;53H   [1;14H[24;66H4[1;14H[?25h[?25l[24;53H~@k[1;14H[24;53H   [1;13H[24;66H3[1;13H[?25h[?25l[24;53H~@k[1;13H[24;53H   [1;12H[24;66H2[1;12H[?25h[?25l[24;53H~@k[1;12H[24;53H   [1;11H[24;66H1[1;11H[?25h[?25l[24;53H~@k[1;11H[24;53H   [1;10H[24;66H0[1;10H[?25h[?25l[24;53H~@k[1;10H[24;53H   [1;9H[24;65H9 [1;9H[?25h[?25l[24;53H~@k[1;9H[24;53H   [1;8H[24;65H8[1;8H[?25h[?25l[24;53H~@k[1;8H[24;53H   [1;7H[24;65H7[1;7H[?25h[?25l[24;53H~@k[1;7H[24;53H   [1;6H[24;65H6[1;6H[?25h[?25l[24;53H~@k[1;6H[24;53H   [1;5H[24;65H5[1;5H[?25h[?25l[24;53H~@k[1;5H[24;53H   [1;4H[24;65H4[1;4H[?25h[?25l[24;53H~@k[1;4H[24;53H   [1;3H[24;65H3[1;3H[?25h[?25l[24;53H~@k[1;3H[24;53H   [1;2H[24;65H2[1;2H[?25h[?25l[24;53H~@k[1;2H[24;53H   [1;1H[24;65H1[1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [1;2H[24;65H2[1;2H[?25h[?25l[24;53H~@k[1;2H[24;53H   [1;3H[24;65H3[1;3H[?25h[?25l[24;53H~@k[1;3H[24;53H   [1;4H[24;65H4[1;4H[?25h[?25l[24;53H~@k[1;4H[24;53H   [1;5H[24;65H5[1;5H[?25h[?25l[24;53H~@k[1;5H[24;53H   [1;6H[24;65H6[1;6H[?25h[?25l[24;53H~@k[1;6H[24;53H   [1;7H[24;65H7[1;7H[?25h[?25l[24;53H~@k[1;7H[24;53H   [1;8H[24;65H8[1;8H[?25h[?25l[24;53H~@k[1;8H[24;53H   [1;7H[24;65H7[1;7H[?25h[?25l[24;53H~@k[1;7H[24;53H   [1;6H[24;65H6[1;6H[?25h[?25l[24;53H~@k[1;6H[24;53H   [1;5H[24;65H5[1;5H[?25h[?25l[24;53H~@k[1;5H[24;53H   [1;4H[24;65H4[1;4H[?25h[?25l[24;53H~@k[1;4H[24;53H   [1;5H[24;65H5[1;5H[?25h[?25l[24;53H~@k[1;5H[24;53H   [1;6H[24;65H6[1;6H[?25h[?25l[24;53H~@k[1;6H[24;53H   [1;7H[24;65H7[1;7H[?25h[?25l[24;53H~@k[1;7H[24;53H   [1;8H[24;65H8[1;8H[?25h[?25l[24;53H~@k[1;8H[24;53H   [1;9H[24;65H9[1;9H[?25h[?25l[24;53H~@k[1;9H[24;53H   [1;10H[24;65H10[1;10H[?25h[?25l[24;53H~@k[1;10H[24;53H   [1;11H[24;66H1[1;11H[?25h[?25l[24;53H~@k[1;11H[24;53H   [1;12H[24;66H2[1;12H[?25h[?25l[24;53H~@k[1;12H[24;53H   [1;13H[24;66H3[1;13H[?25h[?25l[24;53H~@k[1;13H[24;53H   [1;14H[24;66H4[1;14H[?25h[?25l[24;53H~@k[1;14H[24;53H   [1;15H[24;66H5[1;15H[?25h[?25l[24;53H~@k[1;15H[24;53H   [1;15H[?25h[?25l[24;53HA[1;15H[24;53H [1;16H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,16[10CAll[1;16H[?25h[?25lA[24;66H7[1;17H[?25h[?25lA[24;66H8[1;18H[?25h[?25lA[24;66H9[1;19H[?25h[?25lA[24;65H20[1;20H[?25h[?25lA[24;66H1[1;21H[?25h[?25la[24;66H2[1;22H[?25h[?25l[1;21H[K[24;66H1[1;21H[?25h[?25lA[24;66H2[1;22H[?25h[24;1H[K[1;21H[?25l[24;53H^[[1;21H[24;53H  [1;22H[24;63H1,21[10CAll[1;21H[?25h[?25l[24;53H:[1;21H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"input.txt" 1L, 22C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ gdb bo
+GNU gdb (Debian 8.1-4+b1) 8.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bo...done.
+(gdb) break 14
+Breakpoint 1 at 0x8049219: file bo.c, line 14.
+(gdb) run < input.txt 
+Starting program: /home/hacker1/bo < input.txt
+
+Breakpoint 1, main1 () at bo.c:14
+14		func1();
+(gdb) inf [K[Kfo registers 
+eax            0x1	1
+ecx            0x1	1
+edx            0xb7fae89c	-1208293220
+ebx            0x804c000	134529024
+esp            0xbffff710	0xbffff710
+ebp            0xbffff728	0xbffff728
+esi            0xb7fad000	-1208299520
+edi            0x0	0
+eip            0x8049219	0x8049219 <main1+41>
+eflags         0x282	[ SF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x33	51
+(gdb) x/40 [Kx $esp
+0xbffff710:	0x00000001	0xbffff7d4	0x4141f7dc	0x41414141
+0xbffff720:	0x41414141	0x41414141	0x41414141	0x00414141
+0xbffff730:	0xb7fad000	0xb7fad000	0x00000000	0xb7df09a1
+0xbffff740:	0x00000001	0xbffff7d4	0xbffff7dc	0xbffff764
+0xbffff750:	0x00000001	0x00000000	0xb7fad000	0xb7fe6d0a
+0xbffff760:	0xb7fff000	0x00000000	0xb7fad000	0x00000000
+0xbffff770:	0x00000000	0xe2f34ac3	0xa30f0cd3	0x00000000
+0xbffff780:	0x00000000	0x00000000	0x00000001	0x08049080
+0xbffff790:	0x00000000	0xb7fec350	0xb7fe6f60	0x0804c000
+0xbffff7a0:	0x00000001	0x08049080	0x00000000	0x080490b2
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 2565] will be killed.
+
+Quit anyway? (y or n) y
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ vi [K[K[Kd[Kd[Kgdb bo
+GNU gdb (Debian 8.1-4+b1) 8.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bo...done.
+(gdb) brek[Kak 14
+Breakpoint 1 at 0x8049219: file bo.c, line 14.
+(gdb) run < input.txt 
+Starting program: /home/hacker1/bo < input.txt
+
+Breakpoint 1, main1 () at bo.c:14
+14		func1();
+(gdb) info address func2
+Symbol "func2" is a function at address 0x80491c1.
+(gdb) cd ;[K[K[K[Kquit
+A debugging session is active.
+
+	Inferior 1 [process 2572] will be killed.
+
+Quit anyway? (y or n) y
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ hexeditor input.txt 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[39;49m[37m[40m[H[2J(B[0;1m[33m[46mFile: input.txt[19X[1;35HASCII Offset: 0x0[7b / 0x00000015 (%00)[K  (B[m[39;49m[37m[40m[24d(B[0;1m[34m[40m^G Help   ^C Exit (No Save)   ^T goTo Offset   ^X Exit and Save   ^W Search(B[m[39;49m[37m[40m[H
+[37m[44m0[7b  41 41 41 41  41 41 41 41   41 41 41 41  41 41 41 41   A[14bA[3;1H00000010  41 41 41 41  41 0A[36X[3;65HAAAAA.[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[80G(B[m[39;49m[37m[40m[2;11H[24d[J[80G[39;49m[K[24;1H[?1049l[23;0;0t[?1l>]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ vi hex[Kx[K[K[K[K[K[Kv[Kd[Kd[Kd[Kd[Kqit[K[K[Kd[Khexeditor input.txt 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[39;49m[37m[40m[H[2J(B[0;1m[33m[46mFile: input.txt[19X[1;35HASCII Offset: 0x0[7b / 0x00000015 (%00)[K  (B[m[39;49m[37m[40m[24d(B[0;1m[34m[40m^G Help   ^C Exit (No Save)   ^T goTo Offset   ^X Exit and Save   ^W Search(B[m[39;49m[37m[40m[H
+[37m[44m0[7b  41 41 41 41  41 41 41 41   41 41 41 41  41 41 41 41   A[14bA[3;1H00000010  41 41 41 41  41 0A[36X[3;65HAAAAA.[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[80G(B[m[39;49m[37m[40m[2;11H[1;57H(B[0;1m[33m[46m1[75G76)  (B[m[39;49m[37m[40m[3;11H[23;80H[3;11H[C[23;80H[3;12H[1;58H(B[0;1m[33m[46m1[75G81)  (B[m[39;49m[37m[40m[3;14H[23;80H[3;14H[C[23;80H[3;15H[1;58H(B[0;1m[33m[46m2[76G6)  (B[m[39;49m[37m[40m[3;17H[23;80H[3;17H[C[23;80H[3;18H[23;80H[3;17H[1;80H(B[0;1m[33m[46mM[1;80H(B[m[39;49m[37m[40m[3;17H(B[0;1m[32m[44mC1 [3;67H.[23;80H(B[m[39;49m[37m[40m[1d[3;18H[1;58H(B[0;1m[33m[46m3[75G90)  (B[m[39;49m[37m[40m[23d[1d[3;20H[1;80H[3;20H(B[0;1m[32m[44m91  [3;68H.[23;80H(B[m[39;49m[37m[40m[1d[3;21H[1;58H(B[0;1m[33m[46m4[76G5)  (B[m[39;49m[37m[40m[23d[1d[3;24H[1;80H[3;24H(B[0;1m[32m[44m01 [3;69H.[23;80H(B[m[39;49m[37m[40m[1d[3;25H[1;58H(B[0;1m[33m[46m5[75G100) (B[m[39;49m[37m[40m[3;25H(B[0;1m[32m[44m4[23;80H(B[m[39;49m[37m[40m[1d[3;27H[1;80H[3;27H(B[0;1m[32m[44m0A [3;70H.[23;80H(B[m[39;49m[37m[40m[1d[3;28H[1;80H[3;28H(B[0;1m[32m[44m8[23;80H(B[m[39;49m[37m[40m[1d[3;28H[24;3H(B[0;1m[34m[40m/^X/Escape Cancel(B[m[39;49m[37m[40m[K[10;6H(0[0m[39;49m[37m[40mlq[67bk(B[39;49m[37m[40m
+[6G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[30X[11;37HSave File[29X[75G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m
+[6G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[68X[75G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m
+[6G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m Filename: (B[0;1m[33m[46minput.txt[41X[13;68H(B[m[39;49m[37m[40m [6b(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m
+[6G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m[68X[75G(0[0m[39;49m[37m[40mx(B[39;49m[37m[40m
+[6G(0[0m[39;49m[37m[40mmq[67bj(B[39;49m[37m[40m[13;27H(0[0m[39;49m[37m[40m(B[39;49m[37m[40m[24d[J[80G[39;49m[K[24;1H[?1049l[23;0;0t[?1l>]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ gdb bo
+GNU gdb (Debian 8.1-4+b1) 8.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from bo...done.
+(gdb) break 14
+Breakpoint 1 at 0x8049219: file bo.c, line 14.
+(gdb) run < input.txt 
+Starting program: /home/hacker1/bo < input.txt
+
+Breakpoint 1, main1 () at bo.c:14
+14		func1();
+(gdb) x/40 [Kx $esp
+0xbffff710:	0x00000001	0xbffff7d4	0x4141f7dc	0x41414141
+0xbffff720:	0x41414141	0x41414141	0x41414141	0x080491c1
+0xbffff730:	0xb7fad000	0xb7fad000	0x00000000	0xb7df09a1
+0xbffff740:	0x00000001	0xbffff7d4	0xbffff7dc	0xbffff764
+0xbffff750:	0x00000001	0x00000000	0xb7fad000	0xb7fe6d0a
+0xbffff760:	0xb7fff000	0x00000000	0xb7fad000	0x00000000
+0xbffff770:	0x00000000	0x296b9b3e	0x6897dd2e	0x00000000
+0xbffff780:	0x00000000	0x00000000	0x00000001	0x08049080
+0xbffff790:	0x00000000	0xb7fec350	0xb7fe6f60	0x0804c000
+0xbffff7a0:	0x00000001	0x08049080	0x00000000	0x080490b2
+(gdb) cd[K[Kcontinue 
+Continuing.
+Fail..
+My Password is Success!!
+
+Program received signal SIGSEGV, Segmentation fault.
+0xb7fad000 in _GLOBAL_OFFSET_TABLE_ () from /lib/i386-linux-gnu/libc.so.6
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 2601] will be killed.
+
+Quit anyway? (y or n) y
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ ./bo < input.txt 
+Fail..
+My Password is Success!!
+Segmentation fault
+]0;hacker1@kali: ~[01;31mhacker1@kali[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-16 03:19:42-04:00
